@@ -3,11 +3,16 @@ immstruct-actions [![NPM version][npm-image]][npm-url] [![Build Status][travis-i
 
 A library helping structure functions intended as actions in a React or [Omniscient.js](https://github.com/omniscientjs/omniscient) architecture, for providing opinionated helpers and tools for easier use.
 
-Install `immstruct-actions` through npm
+Can this be achieved with just functions? Yes. This is just a guide for helping organizing functions and streamlining how to pass functions around. A action dispatcher object has subscribe possibilites, but if used with [immstruct](https://github.com/omniscientjs/immstruct), this isn't needed. But there is nothing forcing you to use immstruct with this library, even though it is called `immstruct-actions`.
+
+## Install
+
+Install `immstruct-actions` through npm.
 
 ```shell
 $ npm install --save immstruct-actions
 ```
+
 
 ## Example Usage
 
