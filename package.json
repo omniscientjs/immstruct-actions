@@ -1,0 +1,43 @@
+{
+  "name": "immstruct-actions",
+  "version": "0.9.0",
+  "description": "A function dispatcher central to invoke actions for manipulating immstruct data.",
+  "main": "actions.js",
+  "dependencies": {
+    "lodash.assign": "^3.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "chai": "^1.9.2",
+    "derequire": "^1.2.0",
+    "dox": "^0.6.1",
+    "doxme": "git://github.com/mikaelbr/doxme#dev",
+    "immstruct": "^2.0.0",
+    "immutable": "^3.0.2",
+    "mocha": "^2.0.1",
+    "uglify-js": "^2.4.15"
+  },
+  "scripts": {
+    "test": "mocha -R spec tests.js",
+    "test-watch": "mocha -G -w -R min tests.js",
+    "build-docs": "cat actions.js | dox -r | doxme > api.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/omniscientjs/immstruct-actions.git"
+  },
+  "keywords": [
+    "immstruct",
+    "immutable",
+    "immutable.js",
+    "omniscient.js",
+    "immutable",
+    "function dispatcher"
+  ],
+  "author": "Mikael Brevik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omniscientjs/immstruct-actions/issues"
+  },
+  "homepage": "https://github.com/omniscientjs/immstruct-actions"
+}
